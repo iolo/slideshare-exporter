@@ -1,0 +1,16 @@
+{
+  "name": "slideshare-exporter",
+  "version": "0.0.1",
+  "description": "Export all uploaded slides from slideshare",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "playwright": "^1.45.1",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-recaptcha": "^3.6.8"
+  }
+}
